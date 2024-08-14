@@ -1,0 +1,53 @@
+.navbar {
+    background-color: rgb(3, 36, 64);
+}
+
+.navbar-brand img {
+    height: 80px;
+
+} 
+
+.nav-item {
+  margin: 5px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+#logo-book, #logo-words {
+  height: 60px;
+}
+#logo-words {
+  margin-left: -10px;
+  margin-bottom: -4px;
+}
