@@ -1,6 +1,8 @@
 .carousel-item {
+    width: 100%;
     height: 92vh;
   }
+
   .carousel-words {
     top: 180px;
     color: white;
@@ -23,6 +25,7 @@
   #carousel {
     position: relative;
     margin-top: 86.75px;
+    width: 100%;
   }
   
   #carousel::after {
