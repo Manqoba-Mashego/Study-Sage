@@ -72,11 +72,9 @@
 @media (max-width: 992px){
   .img-left {
       margin-right: 2em;
-  }
-  
+  } 
 }
 
-/* sm */
 @media (max-width: 767px) {
   .img-left {
       margin-bottom: 1.6em;
@@ -85,6 +83,9 @@
       flex-direction: column-reverse;
       align-items: center;
       justify-content: space-between;
+  }
+  #be-own-teacher {
+    margin-top: -80px;
   }
 }
 
