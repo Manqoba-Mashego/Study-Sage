@@ -41,6 +41,7 @@
     display: block;
     
 }
+
 .video-links ul {
     background-color: rgb(250, 250, 250);
 }
@@ -48,6 +49,10 @@
 .video-links a {
     font-size: 18px;
     text-decoration: none;
+}
+
+.video-links a:hover {
+    text-decoration: underline;
 }
 
 body {
