@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 .block {
     background-color: rgb(3, 36, 64);
     height: 100px;
@@ -12,9 +11,6 @@
     margin: auto;
     margin-top: 300px;
 }
-
-
-
 
 .benefits {
   margin-top: 60px;
@@ -132,25 +128,6 @@ body {
   padding-bottom: 100px;
 }
 
-.testimonies {
-  position: relative;
-  z-index: 2;
-  background-image: url('../images/scholars/agreement.jpg');
-}
-.testimonies::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.testimony {
-  z-index:  2;
-}
 
 
 
