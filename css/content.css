@@ -1,0 +1,63 @@
+.content {
+  display: flex;
+  height: 610px;
+  margin-top: 86px;
+  position: relative;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid lightgray;
+  width: 500px;
+  position: fixed;
+  bottom: 0;
+  top: 86px;
+}
+.welcome img {
+  width: 300px;
+  flex: 1;
+  margin-bottom: 100px;
+}
+.welcome h1 {
+  flex: 1;
+  margin-top: 100px;
+  font-family: "Dancing Script";
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.main-nav {
+  margin-left: 500px;
+  padding-left: 50px;
+  padding-top: 50px;
+    width: 100%;
+}
+
+.video-links li {
+    list-style: none;
+    margin: 20px 0px;
+    display: block;
+    
+}
+.video-links ul {
+    background-color: rgb(250, 250, 250);
+}
+
+.video-links a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+body {
+  position: relative;
+}
+
+.video-links {
+    margin-top: 30px;
+}
+
+.video-icon {
+    width: 23px;
+}

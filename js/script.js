@@ -24,3 +24,5 @@ document.addEventListener('DOMContentLoaded', function() {
         handleScrollAnimation();
     });
 });
+
+console.log(document.querySelector('nav').offsetHeight)
