@@ -121,13 +121,14 @@
  
 }
 
-
-
 body {
   position: relative;
   padding-bottom: 100px;
 }
 
+.card {
+  padding: 10px 0;
+}
 
 
 
