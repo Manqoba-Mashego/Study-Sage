@@ -5,6 +5,12 @@
   position: relative;
 }
 
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
 .welcome {
   display: flex;
   flex-direction: column;
