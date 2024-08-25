@@ -1,0 +1,70 @@
+section {
+    position: relative;
+    margin-top: 86px;
+}
+
+h1 {
+    color: #148f5e;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.side-nav {
+    top: 86px;
+    width: 320px;
+    position: fixed;
+    left: 30px;
+    bottom: 0;
+    overflow:scroll;
+}
+
+.learning-strategy {
+  margin-left: 350px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.video-links {
+    width: 250px;
+    margin: 30px 0px;
+}
+
+.video-container {
+    position: relative;
+}
+
+.previous-button {
+    padding: 10px 50px;
+    font-size: 18px;
+}
+
+.next-button {
+    position: absolute;
+    right: 70px;
+    padding: 10px 50px;
+    font-size: 18px;
+}
+
+.fa-arrow-left {
+    margin-right: 10px;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+ .btn {
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+ .btn:hover  {
+    transform: scale(1.03); 
+}
+
+.buttons {
+    margin-top: 3px;
+}
