@@ -68,3 +68,17 @@ h1 {
 .buttons {
     margin-top: 3px;
 }
+
+@media (max-width: 1200px){
+    .side-nav {
+        width: 250px;
+    }
+    .video-links {
+        width: 230px;
+    }
+    .learning-strategy {
+        margin-left: 270px;
+    }
+}
+
+
