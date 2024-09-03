@@ -57,4 +57,11 @@
   .navbar-brand img {
     height: 50px;
   }
+  
+}
+
+@media (max-width: 576px){
+  #logo-book, #logo-words {
+    height: 50px;
+  } 
 }
