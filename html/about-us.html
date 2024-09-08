@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/bootstrap.css" />
-    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="../css/about-us.css" />
+    <link rel="stylesheet" href="../css/content.css" />
     <link
       rel="shortcut icon"
       href="../images/logo/book.png"
@@ -20,47 +21,243 @@
       rel="stylesheet"
     />
   </head>
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container d-flex justify-content-between">
-          <!-- logo -->
-          <a class="navbar-brand" href="../index.html">
-            <img src="../images/logo/book.png" alt="" id="logo-book" />
-            <img src="../images/logo/words.png" alt="" id="logo-words" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- navigation -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a href="../index.html" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="html/content.html" class="nav-link">Content</a>
-                <div class="dropdown-content">
-                  <a href="#intro">Learning Strategies</a>
-                  <a href="#study-tips">Study Tips</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">About Us</a>
-              </li>
-            </ul>
+      <div class="container d-flex justify-content-between">
+        <!-- logo -->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/logo/book.png" alt="" id="logo-book" />
+          <img src="../images/logo/words.png" alt="" id="logo-words" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navigation -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="html/content.html" class="nav-link">Content</a>
+              <div class="dropdown-content">
+                <a href="#intro">Learning Strategies</a>
+                <a href="#study-tips">Study Tips</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="introduction-section">
+      <div class="container">
+        <div class="intro-text">
+          <h2>About Study Sage</h2>
+          <div class="intro-image">
+            <img
+              src="../images/slideshow/slideshow-image-3.jpg"
+              alt="Students studying with Study Sage"
+              class="float-end"
+              width="50%"
+            />
+          </div>
+          <p>
+            Study Sage is a project created by a group of teenagers from
+            <a href="https://imaginescholar.org/" target="_blank"
+              >Imagine Scholar</a
+            >, a non-profit organization located in Nkomazi aimed at creating a
+            network of extraordinary thinkers and doers who solve interesting
+            problem.
+          </p>
+          <p>
+            We have identified that many of our peers in high school are not
+            perfoming well academically, and one of the reasons could be due to
+            the lack of exposure to different learning strategies that could
+            help during the learning/studying process. With that we created
+            Study Sage, a website where our peers could easily access and be
+            equipped with learning strategies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <div class="container">
+        <h2>Meet Our Team</h2>
+
+        <!-- Team Member 1 -->
+        <div class="team-member-section">
+          <div class="team-member-profile">
+            <div class="team-member-photo">
+              <img src="https://picsum.photos/200/300" alt="Manqoba Mashego" />
+            </div>
+            <div class="team-member-details">
+              <h3>Manqoba Mashego</h3>
+              <p class="role">Project Leader</p>
+              <p class="bio">
+                A recent high school graduate and Imagine Scholar alumni (Class
+                of 2023). Currently on a gap year and working on becoming a
+                self-taught front-end web developer. Has knowledge in HTML, CSS
+                and vannila JavaScript, and plans on pursuing a degree in
+                Computer Science. Likes watching anime and listening to music.
+              </p>
+              <blockquote>
+                <p>
+                  "The One Piece is real!" &#9866; Whitebeard
+                </p>
+              </blockquote>
+            </div>
           </div>
         </div>
-      </nav>
-</body>
+
+        <!-- Team Member 2 -->
+        <div class="team-member-section">
+          <div class="team-member-profile">
+            <div class="team-member-photo">
+              <img src="https://picsum.photos/200/300" alt="Sarah Johnson" />
+            </div>
+            <div class="team-member-details">
+              <h3>Lindelwa Thwala</h3>
+              <p class="role">Communications manager</p>
+              <p class="bio">
+                A grade 10 learner from Camalaza Secondary School and part of the Imagine Scholar navigator program.
+              </p>
+              <blockquote>
+                <p>"Teaching is not a profession; it's a passion."</p>
+              </blockquote>
+              <div class="social-links">
+                <a href="https://twitter.com/sarahjohnson" target="_blank"
+                  >Twitter</a
+                >
+                <a href="https://linkedin.com/in/sarahjohnson" target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member-section">
+          <div class="team-member-profile">
+            <div class="team-member-photo">
+              <img src="https://picsum.photos/200/300" alt="David Lee" />
+            </div>
+            <div class="team-member-details">
+              <h3>Akhona Ngomane</h3>
+              <p class="role">Logistics manager</p>
+              <p class="bio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                perferendis, mollitia, iusto et reiciendis sequi fuga nobis
+                fugit eligendi possimus quo facere alias nemo omnis ratione sit
+                harum animi magni?
+              </p>
+              <blockquote>
+                <p>
+                  "Technology should simplify and enhance the learning
+                  experience."
+                </p>
+              </blockquote>
+              <div class="social-links">
+                <a href="https://twitter.com/davidlee" target="_blank"
+                  >Twitter</a
+                >
+                <a href="https://linkedin.com/in/davidlee" target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member-section">
+          <div class="team-member-profile">
+            <div class="team-member-photo">
+              <img src="https://picsum.photos/200/300" alt="Emily Roberts" />
+            </div>
+            <div class="team-member-details">
+              <h3>Derrickson Mzinyane</h3>
+              <p class="role">Excellence captain</p>
+              <p class="bio">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Expedita ad tempora consequuntur reiciendis ipsum id laudantium
+                illum asperiores rerum, dignissimos dolores perspiciatis
+                voluptatum, nam et quas ullam omnis nesciunt libero laboriosam
+                impedit praesentium deserunt esse. Asperiores similique
+                voluptate aliquam accusantium.
+              </p>
+              <blockquote>
+                <p>"Great marketing tells a story that resonates."</p>
+              </blockquote>
+              <div class="social-links">
+                <a href="https://twitter.com/emilyroberts" target="_blank"
+                  >Twitter</a
+                >
+                <a href="https://linkedin.com/in/emilyroberts" target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="team-member-section">
+          <div class="team-member-profile">
+            <div class="team-member-photo">
+              <img src="https://picsum.photos/200/300" alt="Michael Thompson" />
+            </div>
+            <div class="team-member-details">
+              <h3>Philani Sibanyoni</h3>
+              <p class="role">Excellence captain</p>
+              <p class="bio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias pariatur repudiandae corrupti excepturi atque.
+                Reprehenderit officiis aspernatur corporis vero at provident
+                rerum dolorem sit! Fugiat sint id et voluptatum, consectetur non
+                saepe eligendi alias iure? Suscipit asperiores rerum id rem!
+              </p>
+              <blockquote>
+                <p>
+                  "Every student has the potential to excel with the right
+                  support."
+                </p>
+              </blockquote>
+              <div class="social-links">
+                <a href="https://twitter.com/michaelthompson" target="_blank"
+                  >Twitter</a
+                >
+                <a
+                  href="https://linkedin.com/in/michaelthompson"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+        &copy; 2024 Study Sage. All rights reserved.
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+
+  </body>
 </html>
