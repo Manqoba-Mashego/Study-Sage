@@ -48,8 +48,18 @@
 
 .testimonies {
   margin-top: 80px;
+  padding-top: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+
+.testimonies-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
 .testimonies img {
   width: 230PX;
   height: 230px;
@@ -59,8 +69,109 @@
 } 
 
 .testimony {
-  margin-top: 50px;
+  margin-bottom: 80px;
+  display: block;
 }
+
+.scholar-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(222, 254, 222);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  
+}
+
+.scholar-photo {
+  margin-bottom: 20px;
+  
+}
+
+.scholar-photo img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.scholar-details {
+  margin-left: 80px;
+}
+
+.scholar-details h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+
+.scholar-details .bio {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.scholar-details blockquote {
+  font-size: 1.2rem;
+  color: #777;
+  font-style: italic;
+  border-left: 4px solid #4caf50;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+
+.scholar-profile:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 992px){
+  .scholar-details {
+    margin-left: 45px;
+  }
+  .scholar-profile {
+    padding: 25px;
+  }
+  .scholar-photo {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px){
+  .scholar-profile {
+    flex-direction: column;
+  }
+  .scholar-details h3{
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .scholar-details h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: -40px;
+  }
+
+  .scholar-details .role {
+    font-size: 1rem;
+  }
+
+  .scholar-details .bio {
+    font-size: 1.2rem;
+  }
+
+  .scholar-details blockquote {
+    font-size: 0.8rem;
+  }
+}
+
 
 .grids {
   margin-bottom: 100px;
