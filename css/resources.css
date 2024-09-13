@@ -1,7 +1,25 @@
 .resources {
     margin-top: 130px;
-    color: black;
-}
-#resources-heading {
     color: rgb(3, 36, 64);
 }
+#resources-heading, #sub-heading {
+    color: rgb(3, 36, 64);
+}
+
+.card-img-top {
+    height: 250px;
+    margin-top: -10px;
+    object-fit: cover;
+}
+
+.kevin-smith {
+    height:200px ;
+    width: 140px;
+}
+
+.textbooks {
+    display: flex;
+}
+.textbooks .btn {
+ margin-top: 4px;
+} 
