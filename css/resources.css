@@ -13,8 +13,8 @@
 }
 
 .kevin-smith {
-    height:200px ;
-    width: 140px;
+    width: 250px;
+    
 }
 
 .textbooks {
@@ -23,3 +23,8 @@
 .textbooks .btn {
  margin-top: 4px;
 } 
+
+.math-siyavula img {
+    width: 250px;
+}
+
