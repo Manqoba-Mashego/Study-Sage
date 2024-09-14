@@ -21,10 +21,19 @@
     display: flex;
 }
 .textbooks .btn {
- margin-top: 4px;
+ margin-top: 10px;
+ width: 250px;
 } 
+
+.grade-10, .grade-11, .grade-12 {
+    display: flex;
+    flex-direction:column ;
+}
 
 .math-siyavula img {
     width: 250px;
 }
 
+.jsdt-logo {
+    width: 70px;
+}
