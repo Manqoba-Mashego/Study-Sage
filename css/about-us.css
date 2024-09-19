@@ -1,11 +1,14 @@
-
+body {
+  background-color: #f9f9f9;
+}
+  
+  
   .introduction-section {
     padding: 60px 20px;
-    background-color: #f9f9f9; 
     margin-top: 150px;
   }
   
-  .introduction-section .container {
+  .intro-container {
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -30,15 +33,41 @@
   
   .intro-image {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10px;
+
   }
   
   .intro-image img {
     max-width: 100%;
     border-radius: 10px;
+    height: 90%;
+    object-fit: cover;
   }
-  
+  .intro-text {
+    flex: 1;
+    padding-right: 5px;
+  }
+
+  @media (max-width: 1200px) {
+    .intro-text {
+      margin-right: 10px;
+    }
+    .introduction-section {
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 1047px) {
+    .introduction {
+      flex-direction: column;
+    }
+  }
+
   @media (max-width: 992px) {
-    .container {
+    .intro-container {
       flex-direction: column;
       text-align: center;
     }
@@ -56,26 +85,20 @@
 
   .team-section {
     padding: 60px 20px;
-    background-color: #f9f9f9;
   }
 
   .team-section .container {
     max-width: 1200px;
     margin: 0 auto;
   }
-  .introduction h2 {
-    margin-bottom: 60px;
-  }
+ 
    .team-section h2 {
     text-align: center;
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 60px;
   }
-  .intro-text {
-    flex: 1;
-  }
-
+  
   .team-member-section {
     margin-bottom: 80px;
     display: block;
@@ -155,9 +178,7 @@
       font-size: 1rem;
     }
 
-    .team-member-details .bio {
-      font-size: 1rem;
-    }
+    
 
     .team-member-details blockquote {
       font-size: 1rem;
