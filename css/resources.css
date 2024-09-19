@@ -7,7 +7,7 @@
 }
 
 .card-img-top {
-    height: 250px;
+    height: 300px;
     margin-top: -10px;
     object-fit: cover;
 }
@@ -19,6 +19,7 @@
 
 .textbooks {
     display: flex;
+    overflow: scroll;
 }
 .textbooks .btn {
  margin-top: 10px;
